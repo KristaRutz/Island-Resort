@@ -1,0 +1,15 @@
+a {
+
+}
+
+body {
+  background-color: rgb(44, 150, 139);
+  /* background-color: transparent; */
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 500px;
+  color: white;
+  text-align: center;
+}
