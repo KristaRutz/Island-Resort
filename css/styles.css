@@ -3,13 +3,18 @@ a {
 }
 
 body {
-  background-color: rgb(44, 150, 139);
-  /* background-color: transparent; */
+  background-color: wheat;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
   font-family: sans-serif;
-  font-size: 500px;
+  font-size: 100px;
   color: white;
   text-align: center;
+}
+
+li {
+  font-style: italic;
+  color: blue;
 }
