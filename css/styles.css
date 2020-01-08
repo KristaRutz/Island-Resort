@@ -3,18 +3,19 @@ a {
 }
 
 body {
-  background-color: wheat;
+  background-color: red;
   font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 100px;
-  color: white;
+  color: green;
   text-align: center;
 }
 
 li {
-  font-style: italic;
+  font-style: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: blue;
 }
