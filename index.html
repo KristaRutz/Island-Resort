@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Fun Island Resort Homepage</title>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="accomodations.html">Where to Stay</a>
-    <a href="activities.html">What to Do</a>
-    <a href="pictures.html">Gallery</a>
-    <a href="travel-arrangements.html">Getting Here</a>
-    <a href="contact-info.html">Contact Us</a>
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="accomodations.html">Where to Stay</a>
+      <a href="activities.html">What to Do</a>
+      <a href="pictures.html">Gallery</a>
+      <a href="travel-arrangements.html">Getting Here</a>
+      <a href="contact-info.html">Contact Us</a>
+    
+      <h1>Welcome to Fun.</h1>
+
+      <p><span class="clickable clickToToggleText">Click to expand/collapse</span> information about our island.</p>
+      <div class="initiallyHidden" id="toggleText">
+        <p>Here is some very useless information about Fun. The island of Fun was founded in 1983. It was named after the band Fun., even though the band wasn't founded until decades into the future. This makes Fun. a pretty fun time paradox, if you ask us!</p>
+      </div>
+
+      <p><span class="clickable clickToToggleImg">Click to expand/collapse</span> a picture of our island.</p>
+      <div class="initiallyHidden" id="toggleImg">
+        <img src="img/island.jpg" alt="Our Island">
+      </div>
+
+    </div>
   </body>
-  <h1>Welcome to Fun.</h1>
 </html>
