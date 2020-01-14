@@ -23,11 +23,20 @@ li {
   display: none;
 }
 
-.clickable {
+.clickable p {
   cursor: pointer;
   color: #0088;
 }
 
-.clickable:hover {
-  text-decoration: underline;
+.clickable li {
+  cursor: pointer;
+  color: #0088;
 }
+
+.clickable img {
+  width: 400px;
+}
+
+/* .clickable:hover {
+  text-decoration: underline;
+} */
